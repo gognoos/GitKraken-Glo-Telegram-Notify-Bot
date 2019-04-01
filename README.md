@@ -1,6 +1,6 @@
 # GitKraken Glo - Telegram Notify Bot!<br>
-GitKraken Glo - Telegram Notify Bot allows you to use GitKraken Glo Webhooks to get real-time notify from Boards updates and changes such as Columns, Cards, Comments, Labels, Tasks, Descriptions, ... in your Telegram app!<br>
-GitKraken Glo - Telegram Notify Bot written in PHP language.<br>
+`GitKraken Glo - Telegram Notify Bot` allows you to use GitKraken Glo Webhooks to get real-time notify from Boards updates and changes such as Columns, Cards, Comments, Labels, Tasks, Descriptions, ... in your Telegram app!<br>
+`GitKraken Glo - Telegram Notify Bot` written in `PHP language`.<br>
  
 ### Features:
 - Support all Boards Event types
@@ -12,11 +12,11 @@ GitKraken Glo - Telegram Notify Bot written in PHP language.<br>
 
 ### How to Setup:
 - Create a new bot with Telegram BotFather
-- Add bot Token in file gkg-hendler.php, Line 3
+- Add bot Token in file `gkg-hendler.php`, `Line 3`
 - Set Telegram bot webhook to project path by passing set as parameter, example `https://example.com/gkg-hendler.php?set`
-- Get your Telegram user ID from bot by /getme command and set it in file gkg-hendler.php, Line 6
+- Get your Telegram user ID from bot by /getme command and set it in file `gkg-hendler.php`, `Line 6`
 - Set GitKraken Glo webhook Payload URL to project path
-- Set GitKraken Glo webhook Content Type to application/json
+- Set GitKraken Glo webhook Content Type to `application/json`
 - Check wanted Trigger Events GitKraken Glo webhook settings
 - Ready to go!
 
