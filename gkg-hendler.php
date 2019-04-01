@@ -126,6 +126,7 @@ class GkgTbotWebhookHandler {
 	
 	private function sendUpdateMessage($message) {
 	    $method = 'SendMessage';
+		$message = str_replace("_", "", $message);
 		$parameters = array('chat_id' => ADMIN_ID, 'text' => $message, 'parse_mode' => 'MARKDOWN', 'disable_web_page_preview' => 'true' );
 		
 		$this->apiRequest($method, $parameters);
